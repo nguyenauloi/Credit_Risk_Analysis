@@ -7,12 +7,9 @@ Fast Lending wants to use machine learning to determine credit risk of customers
 # Results
 
 The dataset we are given contains 115,675 loan applications from Q1 of 2019. Using loan_status as our target, we were able to determine the risk of an account as low or high. All accounts that were current with their loan status was considered low risk, while all others were considered high risk. 
-<img src="<link>" width="300">
-
-
 
 ### Naive Random Oversampling
-<img src="<link>" width="600">
+<img src="https://github.com/nguyenauloi/Credit_Risk_Analysis/blob/main/resources/imgs/naive_random_oversampling.PNG" width="600">
  - Balanced accuracy score: 0.6484905987244723
  - Precision is low for high-risk and high for low-risk
  - Recall Scores
@@ -20,7 +17,7 @@ The dataset we are given contains 115,675 loan applications from Q1 of 2019. Usi
     - Low: 0.66
 
 ### SMOTE Oversampling
-<img src="<link>" width="600">
+<img src="https://github.com/nguyenauloi/Credit_Risk_Analysis/blob/main/resources/imgs/smote_oversampling.PNG" width="600">
  - Balanced accuracy score: 0.623523937295285
  - Precision is low for high-risk loans and high for low-risk loans
  - Recall Scores
@@ -28,7 +25,7 @@ The dataset we are given contains 115,675 loan applications from Q1 of 2019. Usi
     - Low: 63
 
 ### Undersampling
-<img src="<link>" width="600">
+<img src="https://github.com/nguyenauloi/Credit_Risk_Analysis/blob/main/resources/imgs/undersampling.PNG" width="600">
  - Balanced accuracy score: 0.5207293391509643
  - Precision is low for high-risk loans and high for low-risk loans
  - Recall Scores
@@ -36,7 +33,7 @@ The dataset we are given contains 115,675 loan applications from Q1 of 2019. Usi
     - Low: 0.46
 
 ### Combination Under-Over Sampling
-<img src="<link>" width="600">
+<img src="https://github.com/nguyenauloi/Credit_Risk_Analysis/blob/main/resources/imgs/combination_under_over_sampling.PNG" width="600">
  - Balanced accuracy score: 0.6398024261616125
  - Precision is low for high-risk loans and high for low-risk loans
  - Recall Scores
@@ -44,7 +41,7 @@ The dataset we are given contains 115,675 loan applications from Q1 of 2019. Usi
     - Low: 0.58
 
 ### Balanced Random Forest Classifier
-<img src="<link>" width="600">
+<img src="https://github.com/nguyenauloi/Credit_Risk_Analysis/blob/main/resources/imgs/balanced_random_forest_classifier.PNG" width="600">
  - Balanced accuracy score: 0.7959971556458013
  - Precision is low for high-risk loans and high for low-risk loans
  - Recall Scores
@@ -52,7 +49,7 @@ The dataset we are given contains 115,675 loan applications from Q1 of 2019. Usi
     - Low: 0.91
 
 ### Easy Ensemble AdaBoost Classifier
-<img src="<link>" width="600">
+<img src="https://github.com/nguyenauloi/Credit_Risk_Analysis/blob/main/resources/imgs/easy_ensemble_adaboost_classifier.PNG" width="600">
  - Balanced accuracy score: 0.9252521040566293
  - Precision is low for high-risk loans and high for low-risk loans
  - Recall Scores
